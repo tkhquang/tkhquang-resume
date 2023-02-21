@@ -7,8 +7,8 @@ on:
 
 jobs:
   generate_pdf:
-    name: Deploy app
+    name: Generate resume
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: ./scripts/generate_pdf.js
+      - run: node ./scripts/generate_pdf.js
