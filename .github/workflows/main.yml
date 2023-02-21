@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: node ./scripts/generate_pdf.js
+      - run: yarn install && babel-node ./scripts/generate_pdf.js
