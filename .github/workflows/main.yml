@@ -1,0 +1,14 @@
+name: Generate resume
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate_pdf:
+    name: Deploy app
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./scripts/generate_pdf.js
