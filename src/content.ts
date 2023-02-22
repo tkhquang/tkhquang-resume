@@ -3,71 +3,71 @@ export const INFO = {
   lastName: "Trinh Khac",
   title: "Front-End Engineer",
   summary:
-    "Versatile Front-End Engineer with 4+ years of experience designing, developing, and managing complex web applications and internal frameworks. Specializes in modern JavaScript's libraries and frameworks such as React, Vue."
+    "Versatile Front-End Engineer with 4+ years of experience designing, developing, and managing complex web applications and internal frameworks. Specializes in modern JavaScript's libraries and frameworks such as React, Vue.",
 };
 
 export const SKILLS = [
   {
     name: "HTML",
-    subskills: []
+    subskills: [],
   },
   {
     name: "CSS",
-    subskills: ["SCSS", "Tailwind", "CSS-in-JS"]
+    subskills: ["SCSS", "Tailwind", "CSS-in-JS"],
   },
   {
-    name: "JavsScript",
-    subskills: ["React", "Vue", "Recoil/Redux/Vuex", "Gridsome", "Next.js"]
+    name: "JavaScript",
+    subskills: ["React", "Vue", "Recoil/Redux/Vuex", "Gridsome", "Next.js"],
   },
   {
     name: "Elixir",
-    subskills: []
+    subskills: [],
   },
   {
     name: "Git",
-    subskills: []
-  }
+    subskills: [],
+  },
 ];
 
 export const LINKS = [
   {
     title: "Porfolio",
     content: "tkhquang.dev",
-    url: "https://tkhquang.dev/"
+    url: "https://tkhquang.dev/",
   },
   {
     title: "LinkedIn",
     content: "www.linkedin.com/in/quang-\ntrinh-khac-66476517b",
-    url: "https://www.linkedin.com/in/quang-trinh-khac-66476517b/"
+    url: "https://www.linkedin.com/in/quang-trinh-khac-66476517b/",
   },
   {
     title: "Github",
     content: "github.com/tkhquang",
-    url: "https://github.com/tkhquang"
-  }
+    url: "https://github.com/tkhquang",
+  },
 ];
 
 export const CONTACTS = [
   {
     title: "Phone",
     content: "+84 8585 33839",
-    url: "tel:+84858533839"
+    url: "tel:+84858533839",
   },
   {
     title: "Email",
     content: "khacquang.trinh@gmail.com",
-    url: "mailto:khacquang.trinh@gmail.com"
+    url: "mailto:khacquang.trinh@gmail.com",
   },
   {
     title: "Skype",
     content: "live:khacquang.trinh",
-    url: "skype:live:khacquang.trinh?chat"
+    url: "skype:live:khacquang.trinh?chat",
   },
   {
     title: "Address",
     content: "Nguyen Cu Trinh Ward, District 1, Ho Chi Minh City, Vietnam",
-    url: null
-  }
+    url: null,
+  },
 ];
 
 export const CERTIFICATIONS = [
@@ -76,55 +76,49 @@ export const CERTIFICATIONS = [
     certificates: [
       {
         name: "APAC React Bootcamp Certificate",
-        url:
-          "https://www.linkedin.com/in/quang-trinh-khac-66476517b/overlay/1635516197561/single-media-viewer/"
-      }
-    ]
+        url: "https://www.linkedin.com/in/quang-trinh-khac-66476517b/overlay/1635516197561/single-media-viewer/",
+      },
+    ],
   },
   {
     organization: "Dwarves Foundation",
     certificates: [
       {
         name: "Internship - Certificate Of Completion",
-        url:
-          "https://github.com/dwarvesf/training/blob/master/2019/TrinhKhacQuang.pdf"
-      }
-    ]
+        url: "https://github.com/dwarvesf/training/blob/master/2019/TrinhKhacQuang.pdf",
+      },
+    ],
   },
   {
     organization: "freeCodeCamp",
     certificates: [
       {
         name: "Responsive Web Design Certification",
-        url:
-          "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/responsive-web-design"
+        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/responsive-web-design",
       },
       {
         name: "JavaScript Algorithms and Data Structures Certification",
-        url:
-          "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/javascript-algorithms-and-data-structures"
+        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/javascript-algorithms-and-data-structures",
       },
       {
         name: "Front End Libraries Certification",
-        url:
-          "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/front-end-libraries"
+        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/front-end-libraries",
       },
       {
         name: "APIs and Microservices Certification",
-        url:
-          "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/apis-and-microservices"
-      }
-    ]
+        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/apis-and-microservices",
+      },
+    ],
   },
   {
     organization: "IIG Vietnam",
     certificates: [
       {
         name: "TOEIC - 870",
-        url: ""
-      }
-    ]
-  }
+        url: "",
+      },
+    ],
+  },
 ];
 
 export const WORK_EXPERIENCE = [
@@ -140,9 +134,9 @@ export const WORK_EXPERIENCE = [
         tasks: [
           "Integrate with third party transportation providers' APIs (Grab, Ahamove, Borzo,...) for automated food delivery",
           "Implement new features, micro applications for both client-side and server-side",
-          "Receive feedback from internal users and improve the application"
+          "Receive feedback from internal users and improve the application",
         ],
-        stacks: ["ReactJS", "Recoil", "NextJS", "GraphQL", "Elixir"]
+        stacks: ["ReactJS", "Recoil", "NextJS", "GraphQL", "Elixir"],
       },
       {
         name: "Order app",
@@ -150,11 +144,11 @@ export const WORK_EXPERIENCE = [
         tasks: [
           "Convert designs into web pages",
           "Implement new features and fix misbehave functions for both client-side and server-side",
-          "Monitor and improve the application in terms of perfomance, SEO, UX/UI"
+          "Monitor and improve the application in terms of perfomance, SEO, UX/UI",
         ],
-        stacks: ["ReactJS", "Recoil", "NextJS", "GraphQL", "Elixir"]
-      }
-    ]
+        stacks: ["ReactJS", "Recoil", "NextJS", "GraphQL", "Elixir"],
+      },
+    ],
   },
   {
     title: "Front-End Engineer",
@@ -168,18 +162,18 @@ export const WORK_EXPERIENCE = [
         tasks: [
           "Fix misbehave functions in existing codebase",
           "Convert designs into web pages",
-          "Implement new features to client-side"
+          "Implement new features to client-side",
         ],
-        stacks: ["VueJS", "Vuex", "Bootstrap"]
+        stacks: ["VueJS", "Vuex", "Bootstrap"],
       },
       {
         name: "practice.dev",
         summary:
           "A platform where programmers solve programming challenges from domains such as front-end and/or back-end",
         tasks: [
-          "Solve multiple challenges and projects to ensure they are working as intended"
+          "Solve multiple challenges and projects to ensure they are working as intended",
         ],
-        stacks: ["ReactJS", "VueJS", "NodeJS", "Firebase", "TailwindCSS"]
+        stacks: ["ReactJS", "VueJS", "NodeJS", "Firebase", "TailwindCSS"],
       },
       {
         name: "<Confidential>",
@@ -187,11 +181,11 @@ export const WORK_EXPERIENCE = [
         tasks: [
           "Migrate from VueJS to ReactJS",
           "Fix misbehave functions in existing codebase",
-          "Implement new features to client-side"
+          "Implement new features to client-side",
         ],
-        stacks: ["ReactJS", "Redux", "WebRTC"]
-      }
-    ]
+        stacks: ["ReactJS", "Redux", "WebRTC"],
+      },
+    ],
   },
   {
     title: "Front-End Engineer",
@@ -206,11 +200,11 @@ export const WORK_EXPERIENCE = [
           "Maintain legacy system",
           "Legacy system migration",
           "Implement new features, micro applications to client-side",
-          "Convert designs into web pages"
+          "Convert designs into web pages",
         ],
-        stacks: ["VueJS", "Vuex", "Gridsome", "GraphQL", "TailwindCSS"]
-      }
-    ]
+        stacks: ["VueJS", "Vuex", "Gridsome", "GraphQL", "TailwindCSS"],
+      },
+    ],
   },
   {
     title: "Software Engineer Intern",
@@ -224,10 +218,16 @@ export const WORK_EXPERIENCE = [
         tasks: [
           "Design application and database structure",
           "Build API for application",
-          "Build admin page for menu creation and management"
+          "Build admin page for menu creation and management",
         ],
-        stacks: ["Golang", "PosgreSQL", "Restful API", "ReactJS", "TailwindCSS"]
-      }
-    ]
-  }
+        stacks: [
+          "Golang",
+          "PosgreSQL",
+          "Restful API",
+          "ReactJS",
+          "TailwindCSS",
+        ],
+      },
+    ],
+  },
 ];
