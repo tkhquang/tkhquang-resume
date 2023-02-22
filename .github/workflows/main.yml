@@ -17,6 +17,7 @@ jobs:
   push:
     name: Push generated
     runs-on: ubuntu-latest
+    needs: generate_pdf
     steps:
       - uses: actions/checkout@v3
         with:
