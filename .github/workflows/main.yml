@@ -14,7 +14,8 @@ jobs:
       - run: |
           yarn install
           yarn compile
-  push_generated:
+  push:
+    name: Push generated
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,6 +26,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git status
+          git add .
           git commit -a -m "Update resume [ci skip]"
       - name: Push changes
         uses: ad-m/github-push-action@master
