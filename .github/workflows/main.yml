@@ -14,6 +14,7 @@ jobs:
       - run: |
           yarn install
           yarn compile
+          ls -la
   push:
     name: Push generated
     runs-on: ubuntu-latest
