@@ -33,7 +33,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git status
           git add .
-          git diff-index --quiet HEAD || git commit -a -m "Update resume [ci skip]"
+          git commit -a -m "Update resume [ci skip]"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
