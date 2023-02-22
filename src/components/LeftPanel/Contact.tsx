@@ -15,7 +15,7 @@ const Contact = () => {
               <Link
                 style={{
                   color: "#000000",
-                  marginLeft: "5px"
+                  marginLeft: "5px",
                 }}
                 src={url}
               >
@@ -25,7 +25,7 @@ const Contact = () => {
               <Text
                 style={{
                   color: "#000000",
-                  marginLeft: "5px"
+                  marginLeft: "5px",
                 }}
               >
                 {content}

@@ -1,8 +1,8 @@
 import { Font } from "@react-pdf/renderer";
 
 import { createDocumentLayout } from "./Layout";
-import LeftPanel from "./LeftPanel/LeftPanel";
-import RightPanel from "./RightPanel/RightPanel";
+import { LeftPanel } from "./LeftPanel";
+import { RightPanel } from "./RightPanel";
 
 import Montserrat from "../assets/fonts/Montserrat-Regular.ttf";
 import MontserratItalic from "../assets/fonts/Montserrat-Italic.ttf";
@@ -15,25 +15,25 @@ Font.register({
   src: Montserrat,
   fonts: [
     {
-      src: Montserrat
+      src: Montserrat,
     },
     {
       src: MontserratItalic,
-      fontStyle: "italic"
+      fontStyle: "italic",
     },
     {
       src: MontserratSemiBold,
-      fontWeight: 900
+      fontWeight: 900,
     },
     {
       src: MontserratBold,
-      fontWeight: 900
-    }
-  ]
+      fontWeight: 900,
+    },
+  ],
 });
 
 // Disable hyphenate words
-const hyphenationCallback = (word) => {
+const hyphenationCallback = (word: string) => {
   return [word];
 };
 
@@ -41,7 +41,7 @@ Font.registerHyphenationCallback(hyphenationCallback);
 
 const Document = createDocumentLayout({
   leftPanel: LeftPanel,
-  rightPanel: RightPanel
+  rightPanel: RightPanel,
 });
 
 export default Document;

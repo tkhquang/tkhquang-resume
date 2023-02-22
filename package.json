@@ -10,6 +10,7 @@
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.21.0",
     "@react-pdf/renderer": "3.1.5",
     "babel-plugin-file-loader": "^2.0.0",
     "react": "^18.2.0",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/react-pdf": "^6.2.0",
     "@vitejs/plugin-react": "^3.1.0",
     "typescript": "3.3.3",
     "vite": "^4.1.0"
@@ -26,6 +28,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "compile": "node -r @babel/register ./scripts/generate_pdf.js"
+    "compile": "yarn babel-node -x js,.jsx,.ts,.tsx ./scripts/generate_pdf.tsx"
   }
 }

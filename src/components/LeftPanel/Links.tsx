@@ -14,7 +14,7 @@ const Links = () => {
             <Link
               style={{
                 color: "#000000",
-                marginLeft: "5px"
+                marginLeft: "5px",
               }}
               src={url}
             >

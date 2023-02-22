@@ -24,7 +24,7 @@ const WorkExperience = () => {
                       style={{
                         fontSize: "10px",
                         fontWeight: 700,
-                        color: "#0097b2"
+                        color: "#0097b2",
                       }}
                     >
                       {name}
