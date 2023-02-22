@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
       - uses: actions/cache@master
         with:
           path: node_modules
@@ -23,15 +26,6 @@ jobs:
         with:
           path: dist/cache
           key: ${{ runner.os }}-cache-${{ hashFiles('yarn.lock') }}
-  push:
-    name: Push generated
-    runs-on: ubuntu-latest
-    needs: generate_pdf
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
       - name: Commit files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
