@@ -1,1 +1,29 @@
-{}
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": 16
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "babel-plugin-nodejs-import-images",
+    [
+      "file-loader",
+      {
+        "name": "[name].[ext]",
+        "extensions": ["ttf"],
+        "publicPath": "src/assets/fonts",
+        "outputPath": "../../dist/assets/fonts",
+        "context": "",
+        "limit": 0
+      }
+    ]
+  ]
+}
