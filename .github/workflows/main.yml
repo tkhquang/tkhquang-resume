@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   generate_pdf:
@@ -14,3 +14,15 @@ jobs:
       - run: |
           yarn install
           yarn compile
+      - name: switching from HTTPS to SSH
+        run: git remote set-url origin git@github.com:tkhquang/tkhquang-resume.git
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add .
+      - name: commit changed files
+        run: git commit -m "Update resume [ci skip]"
+      - name: fetch from main
+        run: git fetch origin main
+      - name: push code to main
+        run: git push origin HEAD:main
