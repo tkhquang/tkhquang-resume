@@ -2,7 +2,6 @@
   "name": "tkhquang-resume",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "description": "tkhquang's resume",
   "keywords": [],
   "dependencies": {

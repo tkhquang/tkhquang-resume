@@ -13,7 +13,6 @@
   "plugins": [
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-object-rest-spread",
-    "babel-plugin-nodejs-import-images",
     [
       "file-loader",
       {
@@ -23,7 +22,20 @@
         "outputPath": "../../dist/assets/fonts",
         "context": "",
         "limit": 0
-      }
+      },
+      "fonts"
+    ],
+    [
+      "file-loader",
+      {
+        "name": "[name].[ext]",
+        "extensions": ["png"],
+        "publicPath": "src/assets/images",
+        "outputPath": "../../dist/assets/images",
+        "context": "",
+        "limit": 0
+      },
+      "images"
     ]
   ]
 }
