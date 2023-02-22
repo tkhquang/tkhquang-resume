@@ -11,10 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/cache@master
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
       - run: |
           yarn install
           yarn compile
-          ls -la
+          ls -la ./output
+      - uses: actions/cache@master
+        with:
+          path: dist/cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('yarn.lock') }}
   push:
     name: Push generated
     runs-on: ubuntu-latest
