@@ -1,28 +1,32 @@
 {
   "name": "tkhquang-resume",
-  "version": "1.0.0",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "description": "tkhquang's resume",
   "keywords": [],
-  "main": "src/index.js",
   "dependencies": {
     "@babel/core": "^7.17.0",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@react-pdf/renderer": "3.1.5",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
+    "babel-plugin-file-loader": "^2.0.0",
+    "babel-plugin-nodejs-import-images": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "3.3.3",
+    "vite": "^4.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "compile": "node -r @babel/register ./scripts/generate_pdf.js"
+  }
 }
