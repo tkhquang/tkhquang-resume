@@ -1,20 +1,32 @@
 import React from "react";
-import { Image } from "@react-pdf/renderer";
+import { Image, View } from "@react-pdf/renderer";
 
 import Me from "../../assets/images/me.png";
 
 const ProfileAvatar = () => {
   return (
-    <Image
-      src={Me}
+    <View
       style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        alignSelf: "center",
+        marginBottom: "20px",
+        backgroundColor: "#0097b2",
         width: "120px",
         height: "120px",
-        alignSelf: "center",
         borderRadius: "50%",
-        marginBottom: "20px"
       }}
-    />
+    >
+      <Image
+        src={Me}
+        style={{
+          width: "115px",
+          height: "115px",
+          borderRadius: "50%",
+        }}
+      />
+    </View>
   );
 };
 
