@@ -17,7 +17,14 @@ export const SKILLS = [
   },
   {
     name: "JavaScript",
-    subskills: ["React", "Vue", "Recoil/Redux/Vuex", "Gridsome", "Next.js"],
+    subskills: [
+      "TypeScript",
+      "React",
+      "Vue",
+      "Recoil/Redux/Vuex",
+      "Gridsome",
+      "Next.js",
+    ],
   },
   {
     name: "Elixir",
@@ -76,7 +83,7 @@ export const CERTIFICATIONS = [
     certificates: [
       {
         name: "APAC React Bootcamp Certificate",
-        url: "https://www.linkedin.com/in/quang-trinh-khac-66476517b/overlay/1635516197561/single-media-viewer/",
+        url: "https://github.com/tkhquang/tkhquang-resume/blob/main/public/assets/documents/Wizeline_Academy-APAC_React_Bootcamp_Certificate.pdf",
       },
     ],
   },
@@ -115,7 +122,7 @@ export const CERTIFICATIONS = [
     certificates: [
       {
         name: "TOEIC - 870",
-        url: "",
+        url: null,
       },
     ],
   },
@@ -135,18 +142,34 @@ export const WORK_EXPERIENCE = [
           "Integrate with third party transportation providers' APIs (Grab, Ahamove, Borzo,...) for automated food delivery",
           "Implement new features, micro applications for both client-side and server-side",
           "Receive feedback from internal users and improve the application",
+          "Review code, guide new members",
         ],
-        stacks: ["ReactJS", "Recoil", "NextJS", "GraphQL", "Elixir"],
+        stacks: [
+          "TypeScript",
+          "ReactJS",
+          "Recoil",
+          "NextJS",
+          "GraphQL",
+          "Elixir",
+        ],
       },
       {
         name: "Order app",
         summary: "A website for online food ordering",
         tasks: [
           "Convert designs into web pages",
-          "Implement new features and fix misbehave functions for both client-side and server-side",
-          "Monitor and improve the application in terms of perfomance, SEO, UX/UI",
+          "Implement new features and fix misbehaving functions for both client-side and server-side",
+          "Monitor and improve the application in terms of performance, SEO, UX/UI",
+          "Review code, guide new members",
         ],
-        stacks: ["ReactJS", "Recoil", "NextJS", "GraphQL", "Elixir"],
+        stacks: [
+          "TypeScript",
+          "ReactJS",
+          "Recoil",
+          "NextJS",
+          "GraphQL",
+          "Elixir",
+        ],
       },
     ],
   },
@@ -160,7 +183,7 @@ export const WORK_EXPERIENCE = [
         summary:
           "A shipping service that can track packages and provide updates on package location",
         tasks: [
-          "Fix misbehave functions in existing codebase",
+          "Fix misbehaving functions in existing codebase",
           "Convert designs into web pages",
           "Implement new features to client-side",
         ],
@@ -180,7 +203,7 @@ export const WORK_EXPERIENCE = [
         summary: "A video chat website for desktop and mobile",
         tasks: [
           "Migrate from VueJS to ReactJS",
-          "Fix misbehave functions in existing codebase",
+          "Fix misbehaving functions in existing codebase",
           "Implement new features to client-side",
         ],
         stacks: ["ReactJS", "Redux", "WebRTC"],
