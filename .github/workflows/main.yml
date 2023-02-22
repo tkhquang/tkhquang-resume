@@ -14,15 +14,19 @@ jobs:
       - run: |
           yarn install
           yarn compile
-      - name: switching from HTTPS to SSH
-        run: git remote set-url origin git@github.com:tkhquang/tkhquang-resume.git
-      - name: check for changes
-        run: git status
-      - name: stage changed files
-        run: git add .
-      - name: commit changed files
-        run: git commit -m "Update resume [ci skip]"
-      - name: fetch from main
-        run: git fetch origin main
-      - name: push code to main
-        run: git push origin HEAD:main
+  push_generated:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Update resume [ci skip]"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
