@@ -4,7 +4,7 @@ import { Text, View } from "@react-pdf/renderer";
 type SectionProps = {
   title: React.ReactNode;
   children: React.ReactNode;
-};
+} & any;
 
 const Section = ({ title, children, ...props }: SectionProps) => {
   return (

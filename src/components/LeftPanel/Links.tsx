@@ -6,7 +6,7 @@ import { Section } from "../Layout";
 
 const Links = () => {
   return (
-    <Section title={`Links`}>
+    <Section title={`Links`} wrap={false}>
       {LINKS.map(({ title, content, url }, index) => {
         return (
           <View key={index}>
