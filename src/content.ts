@@ -1,9 +1,15 @@
+function getYearsOfExperience() {
+  const now = new Date().getTime();
+  const start = new Date("2019-01-01").getTime();
+
+  return Math.floor((now - start) / (1000 * 60 * 60 * 24 * 365));
+}
+
 export const INFO = {
   firstName: "Quang",
   lastName: "Trinh Khac",
   title: "Front-End Engineer",
-  summary:
-    `Versatile Front-End Engineer with ${Math.floor((new Date().getTime() - new Date("2019-01-01").getTime()) / (1000 * 60 * 60 * 24 * 365))}+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript's libraries and frameworks such as React, Vue,... with a commitment to delivering innovative solutions and fostering a collaborative work environment. Aiming to leverage my expertise in developing innovative ideas that drive engagement and conversion.`,
+  summary: `Versatile Front-End Engineer with ${getYearsOfExperience()}+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript's libraries and frameworks such as React, Vue,... with a commitment to delivering innovative solutions and fostering a collaborative work environment. Aiming to leverage my expertise in developing innovative ideas that drive engagement and conversion.`,
 };
 
 export const SKILLS = [
@@ -130,16 +136,67 @@ export const CERTIFICATIONS = [
 
 export const WORK_EXPERIENCE = [
   {
+    title: "Front-End Engineer",
+    company: "CareHealth",
+    url: "https://www.getcare.io/",
+    duration: "08/2023 - Present",
+    projects: [
+      {
+        name: "Membership",
+        url: null,
+        summary:
+          "As a Front-End Engineer within the dynamic team at Care, I specialized in the development and enhancement of the membership module, significantly improving the partner backoffice interface. My responsibilities centered around designing and implementing user-centric solutions that seamlessly integrated with Care's wellness feature configurations, ultimately enhancing user engagement and satisfaction.",
+        teamSize: 12,
+        tasks: [
+          "Contributed significantly to the design and implementation of intuitive user interfaces, ensuring they met both user needs and business objectives through effective teamwork and collaboration.",
+          "Led research on the adoption of form builder frameworks to streamline form management to increase efficiency.",
+        ],
+        stacks: [
+          "TypeScript",
+          "ReactJS",
+          "Zustand",
+          "NextJS",
+          "SCSS",
+          "TailwindCSS",
+          "Ant Design",
+        ],
+      },
+      {
+        name: "Wellness",
+        url: null,
+        summary:
+          "For this project, I solely took charge as a Front-End Engineer, implementing all aspects of the wellness features into the partner backoffice interface. This initiative was pivotal in providing a customizable and responsive wellness experience directly to our partners, enhancing user satisfaction and engagement across the platform.",
+        teamSize: 10,
+        tasks: [
+          "Played a key role in the team responsible for designing and implementing intuitive user interfaces, achieving a perfect alignment with user needs and business goals.",
+          "Implemented webview screens in a Flutter mobile app, integrated tracking, and collaborated closely with the data team for insights.",
+          "Spearheaded the creation of a new e-wallet management module in the partner dashboard, enhancing the platform's user experience.",
+          "Pioneered the research and application of a monorepo approach to consolidate 4 distinct frontend repositories, improving code consistency and streamlining development processes.",
+        ],
+        stacks: [
+          "TypeScript",
+          "ReactJS",
+          "Zustand",
+          "NextJS",
+          "SCSS",
+          "TailwindCSS",
+          "Ant Design",
+        ],
+      },
+    ],
+  },
+  {
     title: "Full-Stack Engineer",
     company: "Deliany",
-    duration: "10/2020 - Present",
+    url: "https://eats.deliany.co/",
+    duration: "10/2020 - 08/2023",
     projects: [
       {
         name: "Deliany",
+        url: null,
         summary:
           "At Deliany, I was involved in the development of multiple SaaS applications, which are parts of an online food ordering system (cloud kitchen). Started off as a Front-End Engineer, I utilized my knowledge and skills in React and its ecosystem before transitioning to a Full-Stack position using Elixir/Phoenix. I played a key role in deciding and shaping the company's internal UI libraries, ensuring consistency and high efficiency.",
         teamSize: 8,
-        url: null,
         tasks: [
           "Led the architectural design and development efforts for a POS system, ensuring that the code was of high quality and delivered on time.",
           "Maintained and improved company-wide shared JavaScript libraries, with a specific focus on creating a robust and user-friendly React UI library.",
@@ -164,36 +221,43 @@ export const WORK_EXPERIENCE = [
   {
     title: "Front-End Engineer",
     company: "Freelance",
+    url: null,
     duration: "09/2019 - 10/2020",
     projects: [
       {
         name: "Big Storage",
+        url: null,
         summary:
           "A shipping service that can track packages and provide updates on package location.",
+        teamSize: 3,
         tasks: [
           "Designed and developed a reusable component library for future use, resulting in a 40% reduction in development time for new projects.",
-          "Developed an interactive layout, using Vue and Bootstrap to generate an improved user experience and ensure high-quality design and cross-browser compatibility",
+          "Developed an interactive layout, using Vue and Bootstrap to generate an improved user experience and ensure high-quality design and cross-browser compatibility.",
           "Reduced page load times by 200% by optimizing package management and removing unnecessary dependencies.",
         ],
         stacks: ["VueJS", "Vuex", "Bootstrap"],
       },
       {
         name: "practice.dev",
+        url: null,
         summary:
-          "A platform where programmers solve programming challenges from domains such as front-end and/or back-end",
+          "A platform where programmers solve programming challenges from domains such as front-end and/or back-end.",
+        teamSize: 2,
         tasks: [
-          "Solved multiple challenges and projects to ensure they were working as intended",
+          "Solved multiple challenges and projects to ensure they were working as intended.",
         ],
         stacks: ["ReactJS", "VueJS", "NodeJS", "Firebase", "TailwindCSS"],
       },
       {
         name: "<Confidential>",
-        summary: "A video chat website for desktop and mobile",
+        url: null,
+        summary: "A video chat website for desktop and mobile.",
+        teamSize: 5,
         tasks: [
           "Successfully migrated a large Vue/Parcel codebase to React/Webpack, improving performance and maintainability.",
           "Fixed misbehaving functions in existing codebase",
-          "Implemented new features to client-side",
-          "Successfully debugged the web-related (cross-browser) issues, leading to improved efficiency and performance",
+          "Implemented new features to client-side.",
+          "Successfully debugged the web-related (cross-browser) issues, leading to improved efficiency and performance.",
         ],
         stacks: ["ReactJS", "Redux", "WebRTC"],
       },
@@ -202,16 +266,19 @@ export const WORK_EXPERIENCE = [
   {
     title: "Front-End Engineer",
     company: "Dwarves Foundation",
+    url: "https://dwarves.foundation/",
     duration: "06/2019 - 09/2019",
     projects: [
       {
         name: "TelemetryTV",
+        url: "https://www.telemetrytv.com/",
         summary:
           "A powerful digital signage platform which allows users to broadcast dynamic content easily by streaming video, images, social feeds, turnkey apps, and data-driven dashboards to all of their displays. I was involved in the development of two applications: the company website and the web-based appplication of the digital signage platform.",
+        teamSize: 5,
         tasks: [
           "Successfully migrated a large number of components and modules from an old repository to a new one with a completely different architectural design.",
           "Translated complex design requirements into interactive user experiences to promote customer engagement and drive web traffic.",
-          "Implemented interactive user-facing features using Vue, ensuring a smooth and efficient user experience with maximum scalability",
+          "Implemented interactive user-facing features using Vue, ensuring a smooth and efficient user experience with maximum scalability.",
         ],
         stacks: ["VueJS", "Vuex", "Gridsome", "GraphQL", "TailwindCSS"],
       },
@@ -220,17 +287,20 @@ export const WORK_EXPERIENCE = [
   {
     title: "Software Engineer Intern",
     company: "Dwarves Foundation",
+    url: "https://dwarves.foundation/",
     duration: "04/2019 - 06/2019",
     projects: [
       {
         name: "DATCOM",
+        url: null,
         summary:
-          "As an intern, I worked in a team of 5 people, with the task of building an internal application to to help people in the company order lunch easier. All members were involved in the Back-End development. After that, I was responsible for building the application's UI",
+          "As an intern, I worked in a team of 5 people, with the task of building an internal application to to help people in the company order lunch easier. All members were involved in the Back-End development. After that, I was responsible for building the application's UI.",
+        teamSize: 5,
         tasks: [
-          "Leveraged agile methodology to manage tasks and maintain code quality while developing the application using React, TailwindCSS and Go",
-          "Initilzed the application and designed the database structure using GORM, PosgreSQL",
-          "Built RESTful APIs for application using Gin",
-          "Built admin page for menu creation and management leveraging React and TailwindCSS",
+          "Leveraged agile methodology to manage tasks and maintain code quality while developing the application using React, TailwindCSS and Go.",
+          "Initilzed the application and designed the database structure using GORM, PosgreSQL.",
+          "Built RESTful APIs for application using Gin.",
+          "Built admin page for menu creation and management leveraging React and TailwindCSS.",
         ],
         stacks: [
           "Golang",
