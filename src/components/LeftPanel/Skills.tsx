@@ -12,7 +12,11 @@ const Skills = () => {
           <View key={index}>
             <Text>{name}</Text>
             {subskills.map((subskill, index) => {
-              return <Text key={index}>- {subskill}</Text>;
+              return (
+                <Text key={index} style={{ marginLeft: "10px" }}>
+                  - {subskill}
+                </Text>
+              );
             })}
           </View>
         );

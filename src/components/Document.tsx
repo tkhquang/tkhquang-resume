@@ -23,7 +23,7 @@ Font.register({
     },
     {
       src: MontserratSemiBold,
-      fontWeight: 900,
+      fontWeight: 700,
     },
     {
       src: MontserratBold,
