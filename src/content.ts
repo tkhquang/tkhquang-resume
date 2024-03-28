@@ -1,8 +1,37 @@
-function getYearsOfExperience() {
+import { formatDuration, format, intervalToDuration } from "date-fns";
+
+function getYearsOfExperience(): number {
   const now = new Date().getTime();
   const start = new Date("2019-01-01").getTime();
 
   return Math.floor((now - start) / (1000 * 60 * 60 * 24 * 365));
+}
+
+interface GetFormattedDurationOptions {
+  startDate: string;
+  endDate?: string | null;
+}
+
+function getFormattedDuration({
+  startDate,
+  endDate = null,
+}: GetFormattedDurationOptions) {
+  const start = new Date(startDate);
+
+  if (!endDate) {
+    return `${format(start, "MM/yyyy")} - Present`;
+  }
+
+  const end = new Date(endDate);
+
+  const duration = intervalToDuration({
+    start,
+    end,
+  });
+  return `${format(start, "MM/yyyy")} - ${format(
+    end,
+    "MM/yyyy"
+  )} (${formatDuration(duration, { format: ["years", "months"] })})`;
 }
 
 export const INFO = {
@@ -139,7 +168,9 @@ export const WORK_EXPERIENCE = [
     title: "Front-End Engineer",
     company: "CareHealth",
     url: "https://www.getcare.io/",
-    duration: "08/2023 - Present",
+    duration: getFormattedDuration({
+      startDate: "2023-08-07",
+    }),
     projects: [
       {
         name: "Membership",
@@ -189,7 +220,10 @@ export const WORK_EXPERIENCE = [
     title: "Full-Stack Engineer",
     company: "Deliany",
     url: "https://eats.deliany.co/",
-    duration: "10/2020 - 08/2023",
+    duration: getFormattedDuration({
+      startDate: "2020-10-21",
+      endDate: "2023-07-28",
+    }),
     projects: [
       {
         name: "Deliany",
@@ -222,7 +256,10 @@ export const WORK_EXPERIENCE = [
     title: "Front-End Engineer",
     company: "Freelance",
     url: null,
-    duration: "09/2019 - 10/2020",
+    duration: getFormattedDuration({
+      startDate: "2019-09-07",
+      endDate: "2020-10-20",
+    }),
     projects: [
       {
         name: "Big Storage",
@@ -267,7 +304,10 @@ export const WORK_EXPERIENCE = [
     title: "Front-End Engineer",
     company: "Dwarves Foundation",
     url: "https://dwarves.foundation/",
-    duration: "06/2019 - 09/2019",
+    duration: getFormattedDuration({
+      startDate: "2019-06-01",
+      endDate: "2019-09-06",
+    }),
     projects: [
       {
         name: "TelemetryTV",
@@ -288,7 +328,10 @@ export const WORK_EXPERIENCE = [
     title: "Software Engineer Intern",
     company: "Dwarves Foundation",
     url: "https://dwarves.foundation/",
-    duration: "04/2019 - 06/2019",
+    duration: getFormattedDuration({
+      startDate: "2019-04-01",
+      endDate: "2019-06-01",
+    }),
     projects: [
       {
         name: "DATCOM",
