@@ -3,7 +3,7 @@ export const INFO = {
   lastName: "Trinh Khac",
   title: "Front-End Engineer",
   summary:
-    "Versatile Front-End Engineer with 4+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript's libraries and frameworks such as React, Vue,... with a commitment to delivering innovative solutions and fostering a collaborative work environment. Aiming to leverage my expertise in developing innovative ideas that drive engagement and conversion.",
+    `Versatile Front-End Engineer with ${Math.floor((new Date().getTime() - new Date("2019-01-01").getTime()) / (1000 * 60 * 60 * 24 * 365))}+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript's libraries and frameworks such as React, Vue,... with a commitment to delivering innovative solutions and fostering a collaborative work environment. Aiming to leverage my expertise in developing innovative ideas that drive engagement and conversion.`,
 };
 
 export const SKILLS = [
