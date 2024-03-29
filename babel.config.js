@@ -3,20 +3,43 @@ module.exports = {
     [
       "@babel/preset-env",
       {
-        loose: true,
         targets: {
-          node: "14",
-          browsers: "last 2 versions",
+          node: 18,
         },
       },
     ],
-    ["@babel/preset-react", { runtime: "automatic" }],
+    "@babel/preset-react",
+    "@babel/preset-typescript",
   ],
   plugins: [
-    ["@babel/plugin-transform-runtime", { version: "^7.19.6" }],
-    ["@babel/plugin-proposal-decorators", { legacy: true }],
-    ["@babel/plugin-proposal-class-properties", { loose: true }],
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
     "@babel/plugin-proposal-optional-chaining",
+    [
+      "file-loader",
+      {
+        name: "[name].[ext]",
+        extensions: ["ttf"],
+        publicPath: "src/assets/fonts",
+        outputPath: "../../dist/assets/fonts",
+        context: "",
+        limit: 0,
+      },
+      "fonts",
+    ],
+    [
+      "file-loader",
+      {
+        name: "[name].[ext]",
+        extensions: ["png"],
+        publicPath: "src/assets/images",
+        outputPath: "../../dist/assets/images",
+        context: "",
+        limit: 0,
+      },
+      "images",
+    ],
     [
       "module-resolver",
       {
