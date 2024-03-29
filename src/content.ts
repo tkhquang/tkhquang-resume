@@ -1,38 +1,4 @@
-import { formatDuration, format, intervalToDuration } from "date-fns";
-
-function getYearsOfExperience(): number {
-  const now = new Date().getTime();
-  const start = new Date("2019-01-01").getTime();
-
-  return Math.floor((now - start) / (1000 * 60 * 60 * 24 * 365));
-}
-
-interface GetFormattedDurationOptions {
-  startDate: string;
-  endDate?: string | null;
-}
-
-function getFormattedDuration({
-  startDate,
-  endDate = null,
-}: GetFormattedDurationOptions) {
-  const start = new Date(startDate);
-
-  if (!endDate) {
-    return `${format(start, "MM/yyyy")} - Present`;
-  }
-
-  const end = new Date(endDate);
-
-  const duration = intervalToDuration({
-    start,
-    end,
-  });
-  return `${format(start, "MM/yyyy")} - ${format(
-    end,
-    "MM/yyyy"
-  )} (${formatDuration(duration, { format: ["years", "months"] })})`;
-}
+import { getYearsOfExperience, getFormattedDuration } from "@/utils";
 
 export const INFO = {
   firstName: "Quang",
