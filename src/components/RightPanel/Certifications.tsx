@@ -26,9 +26,9 @@ const Certifications = () => {
                     {(issueDate || expirationDate) && (
                       <Text
                         style={{
-                          marginLeft: "7px",
+                          marginLeft: "6px",
                           fontStyle: "italic",
-                          fontSize: "10px",
+                          fontSize: "9px",
                         }}
                       >
                         {[issueDate, expirationDate]
