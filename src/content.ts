@@ -24,7 +24,7 @@ export const SKILLS = [
       "TypeScript",
       "React",
       "Vue",
-      "Recoil/Redux/Vuex",
+      "Recoil/Zustand/Redux/Vuex",
       "Gridsome",
       "Next.js",
     ],
@@ -144,11 +144,11 @@ export const WORK_EXPERIENCE = [
         name: "Membership",
         url: null,
         summary:
-          "As a Front-End Engineer within the dynamic team at Care, I specialized in the development and enhancement of the membership module, significantly improving the partner backoffice interface. My responsibilities centered around designing and implementing user-centric solutions that seamlessly integrated with Care's wellness feature configurations, ultimately enhancing user engagement and satisfaction.",
+          "As a Front-End Engineer at Care, I focused on improving the membership module and the partner backoffice interface. My role involved creating and integrating user-friendly solutions into the wellness features, which enhanced user engagement and satisfaction.",
         teamSize: 12,
         tasks: [
-          "Contributed significantly to the design and implementation of intuitive user interfaces, ensuring they met both user needs and business objectives through effective teamwork and collaboration.",
-          "Led research on the adoption of form builder frameworks to streamline form management to increase efficiency.",
+          "Collaborating with two other Front-End engineers, I contributed to the creation and implementation of user-friendly interfaces that aligned with user needs and business goals.",
+          "Led the research on integrating form builder frameworks like form.io and BEEKAI with our company's design system. This effort resulted in quicker form creation, directly addressing customer needs more efficiently.",
         ],
         stacks: [
           "TypeScript",
@@ -164,13 +164,13 @@ export const WORK_EXPERIENCE = [
         name: "Wellness",
         url: null,
         summary:
-          "For this project, I solely took charge as a Front-End Engineer, implementing all aspects of the wellness features into the partner backoffice interface. This initiative was pivotal in providing a customizable and responsive wellness experience directly to our partners, enhancing user satisfaction and engagement across the platform.",
+          "As the sole Front-End Engineer for this project, I implemented the wellness features into the partner backoffice interface. My contributions enhanced the interactive and customizable aspects of the platform, leading to increased partner involvement and positive feedback.",
         teamSize: 10,
         tasks: [
-          "Played a key role in the team responsible for designing and implementing intuitive user interfaces, achieving a perfect alignment with user needs and business goals.",
-          "Implemented webview screens in a Flutter mobile app, integrated tracking, and collaborated closely with the data team for insights.",
-          "Spearheaded the creation of a new e-wallet management module in the partner dashboard, enhancing the platform's user experience.",
-          "Pioneered the research and application of a monorepo approach to consolidate 4 distinct frontend repositories, improving code consistency and streamlining development processes.",
+          "Played a key role in the team that developed and delivered complex, intuitive interfaces on time, effectively meeting customer expectations and strategic objectives.",
+          "Collaborated with the mobile development team to ensure cross-platform accuracy of webview behavior in Android and iOS, boosting the functionality of the Flutter mobile application.",
+          "Incorporated event tracking features and closely collaborated with the data team to extract actionable insights",
+          "Pioneered the research and application of a monorepo approach to consolidate four distinct Front-End repositories, reducing code duplication and enable code reuse",
         ],
         stacks: [
           "TypeScript",
