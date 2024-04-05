@@ -144,7 +144,7 @@ export const WORK_EXPERIENCE = [
         name: "Membership",
         url: null,
         summary:
-          "As a Front-End Engineer at Care, I focused on improving the membership module and the partner backoffice interface. My role involved creating and integrating user-friendly solutions into the wellness features, which enhanced user engagement and satisfaction.",
+          "As a Front-End Engineer at Care, I focused on improving the membership module and the partner back-office interface. My role involved creating and integrating user-friendly solutions into the wellness features, which enhanced user engagement and satisfaction.",
         teamSize: 12,
         tasks: [
           "Collaborating with two other Front-End Engineers, I contributed to the creation and implementation of user-friendly interfaces that aligned with user needs and business goals.",
@@ -164,13 +164,13 @@ export const WORK_EXPERIENCE = [
         name: "Wellness",
         url: null,
         summary:
-          "As the sole Front-End Engineer for this project, I implemented the wellness features into the partner backoffice interface. My contributions enhanced the interactive and customizable aspects of the platform, leading to increased partner involvement and positive feedback.",
+          "As the sole Front-End Engineer for this project, I implemented the wellness features into the partner back-office interface. My contributions enhanced the interactive and customizable aspects of the platform, leading to increased partner involvement and positive feedback.",
         teamSize: 10,
         tasks: [
           "Played a key role in the team that developed and delivered complex, intuitive interfaces on time, effectively meeting customer expectations and strategic objectives.",
           "Collaborated with the mobile development team to ensure cross-platform accuracy of webview behavior in Android and iOS, boosting the functionality of the Flutter mobile application.",
           "Incorporated event tracking features and closely collaborated with the data team to extract actionable insights.",
-          "Pioneered the research and application of a monorepo approach to consolidate four distinct Front-End repositories, reducing code duplication and enable code reuse.",
+          "Pioneered the research and application of a monorepo approach to consolidate four distinct front-end repositories, reducing code duplication and enable code reuse.",
         ],
         stacks: [
           "TypeScript",
@@ -201,7 +201,7 @@ export const WORK_EXPERIENCE = [
         teamSize: 8,
         tasks: [
           "Led the architectural design and development efforts for a POS system, ensuring that the code was of high quality and delivered on time.",
-          "Maintained and improved company-wide shared JavaScript libraries, with a specific focus on creating a robust and user-friendly React UI library.",
+          "Maintained and improved company-wide shared JavaScript libraries, with a specific focus on creating a robust and user-friendly React UI library that utilizes Headless UI.",
           "Collaborated closely with designers, product owners, and stakeholders to create intuitive and responsive UIs that met user needs and business requirements.",
           "Proactively addressed technical debt in a sustainable manner, resulting in a significant increase in company productivity.",
           "Ensured that the applications were reliable and that bugs were easily discoverable, making sure that the system ran smoothly for our clients.",
@@ -212,6 +212,7 @@ export const WORK_EXPERIENCE = [
         stacks: [
           "TypeScript",
           "ReactJS",
+          "xstyled/styled-components",
           "Recoil",
           "NextJS",
           "GraphQL",
