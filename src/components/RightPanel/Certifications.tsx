@@ -24,7 +24,13 @@ const Certifications = () => {
                       )}
                     </Text>
                     {(issueDate || expirationDate) && (
-                      <Text style={{ marginLeft: "7px", fontStyle: "italic" }}>
+                      <Text
+                        style={{
+                          marginLeft: "7px",
+                          fontStyle: "italic",
+                          fontSize: "10px",
+                        }}
+                      >
                         {[issueDate, expirationDate]
                           .filter((date) => !!date)
                           .join(" - ")}
