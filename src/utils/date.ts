@@ -1,9 +1,10 @@
 import { formatDuration, format, intervalToDuration } from "date-fns";
 
-export function getYearsOfExperience() {
+export function getYearsOfExperience(start: Date | number | string) {
+  const now = new Date();
   const duration = intervalToDuration({
-    start: new Date("2019-01-01"),
-    end: new Date(),
+    start,
+    end: now,
   });
 
   return duration.years;
