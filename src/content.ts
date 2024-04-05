@@ -309,13 +309,13 @@ export const WORK_EXPERIENCE = [
         teamSize: 5,
         tasks: [
           "Leveraged agile methodology to manage tasks and maintain code quality while developing the application using React, TailwindCSS and Go.",
-          "Initilzed the application and designed the database structure using GORM, PosgreSQL.",
+          "Initilzed the application and designed the database structure using GORM, PostgreSQL.",
           "Built RESTful APIs for application using Gin.",
           "Built admin page for menu creation and management leveraging React and TailwindCSS.",
         ],
         stacks: [
           "Golang",
-          "PosgreSQL",
+          "PostgreSQL",
           "RESTful API",
           "ReactJS",
           "TailwindCSS",
