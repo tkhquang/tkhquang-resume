@@ -32,7 +32,7 @@ module.exports = {
       "file-loader",
       {
         name: "[name].[ext]",
-        extensions: ["png"],
+        extensions: ["png", "jpg"],
         publicPath: "src/assets/images",
         outputPath: "../../dist/assets/images",
         context: "",
