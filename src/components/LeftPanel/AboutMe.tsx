@@ -1,8 +1,8 @@
 import React from "react";
 import { Text } from "@react-pdf/renderer";
 
-import { INFO } from "../../content";
-import { Section } from "../Layout";
+import { Section } from "@/components/Layout";
+import { INFO } from "@/content";
 
 const AboutMe = () => {
   return (

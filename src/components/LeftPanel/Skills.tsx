@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, View } from "@react-pdf/renderer";
 
-import { SKILLS } from "../../content";
-import { Section } from "../Layout";
+import { Section } from "@/components/Layout";
+import { SKILLS } from "@/content";
 
 const Skills = () => {
   return (

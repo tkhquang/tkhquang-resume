@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, View, Link } from "@react-pdf/renderer";
-
-import { LINKS } from "../../content";
-import { Section } from "../Layout";
+import { Section } from "@/components/Layout";
+import { LINKS } from "@/content";
+import { COLORS } from "@/contants";
 
 const Links = () => {
   return (
@@ -13,7 +13,7 @@ const Links = () => {
             <Text>{title}:</Text>
             <Link
               style={{
-                color: "#000000",
+                color: COLORS.onSurface,
                 marginLeft: "5px",
               }}
               src={url}

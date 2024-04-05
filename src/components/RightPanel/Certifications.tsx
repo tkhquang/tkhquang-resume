@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, View, Link } from "@react-pdf/renderer";
 
-import { CERTIFICATIONS } from "../../content";
-import { Section } from "../Layout";
+import { Section } from "@/components/Layout";
+import { CERTIFICATIONS } from "@/content";
 
 const Certifications = () => {
   return (

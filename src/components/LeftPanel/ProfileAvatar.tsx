@@ -1,7 +1,8 @@
 import React from "react";
 import { Image, View } from "@react-pdf/renderer";
 
-import Me from "../../assets/images/me.png";
+import { COLORS } from "@/contants";
+import Me from "@/assets/images/Aleks.jpg";
 
 const ProfileAvatar = () => {
   return (
@@ -12,7 +13,7 @@ const ProfileAvatar = () => {
         alignItems: "center",
         alignSelf: "center",
         marginBottom: "20px",
-        backgroundColor: "#0097b2",
+        backgroundColor: COLORS.primary,
         width: "120px",
         height: "120px",
         borderRadius: "50%",

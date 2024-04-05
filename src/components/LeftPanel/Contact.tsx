@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, View, Link } from "@react-pdf/renderer";
-
-import { CONTACTS } from "../../content";
-import { Section } from "../Layout";
+import { Section } from "@/components/Layout";
+import { CONTACTS } from "@/content";
+import { COLORS } from "@/contants";
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
             {url ? (
               <Link
                 style={{
-                  color: "#000000",
+                  color: COLORS.onSurface,
                   marginLeft: "5px",
                 }}
                 src={url}
@@ -24,7 +24,7 @@ const Contact = () => {
             ) : (
               <Text
                 style={{
-                  color: "#000000",
+                  color: COLORS.onSurface,
                   marginLeft: "5px",
                 }}
               >

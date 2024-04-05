@@ -1,8 +1,9 @@
 import React from "react";
 import { Text, View, Link } from "@react-pdf/renderer";
 
-import { WORK_EXPERIENCE } from "../../content";
-import { Section } from "../Layout";
+import { Section } from "@/components/Layout";
+import { WORK_EXPERIENCE } from "@/content";
+import { COLORS } from "@/contants";
 
 const WorkExperience = () => {
   return (
@@ -39,7 +40,7 @@ const WorkExperience = () => {
                             style={{
                               fontSize: "10px",
                               fontWeight: 700,
-                              color: "#0097b2",
+                              color: COLORS.primary,
                             }}
                             src={url}
                           >
@@ -50,7 +51,7 @@ const WorkExperience = () => {
                             style={{
                               fontSize: "10px",
                               fontWeight: 700,
-                              color: "#0097b2",
+                              color: COLORS.primary,
                             }}
                           >
                             {name}

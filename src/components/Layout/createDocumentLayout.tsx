@@ -1,5 +1,6 @@
 import React from "react";
 import { Document, Page, View } from "@react-pdf/renderer";
+import { COLORS } from "@/contants";
 
 type CreateDocumentLayoutOptions = {
   leftPanel: React.ComponentType;
@@ -18,15 +19,16 @@ function createDocumentLayout({
           fontFamily: "Montserrat",
           lineHeight: "1.5",
           flexDirection: "row",
-          color: "#000000",
-          backgroundColor: "#E4E4E4",
+          color: COLORS.onBackground,
+          backgroundColor: COLORS.background,
         }}
       >
         <View
           style={{
             padding: "40px 10px",
             width: `${100 / 3}%`,
-            backgroundColor: "#95c9d8",
+            color: COLORS.onSurface,
+            backgroundColor: COLORS.surface,
           }}
         >
           <LeftPanel />
@@ -35,7 +37,8 @@ function createDocumentLayout({
           style={{
             padding: "40px 10px",
             width: `${(100 / 3) * 2}%`,
-            backgroundColor: "#FFFFFF",
+            color: COLORS.onBackground,
+            backgroundColor: COLORS.background,
           }}
         >
           <RightPanel />
