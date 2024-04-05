@@ -11,20 +11,29 @@ const Certifications = () => {
         return (
           <View key={index}>
             <Text>{organization}</Text>
-            {certificates.map(({ name, url }, index) => {
-              return (
-                <View key={index} style={{ marginLeft: "5px" }}>
-                  <Text>
-                    <Text>• </Text>
-                    {url ? (
-                      <Link src={url}>{name}</Link>
-                    ) : (
-                      <Text style={{ fontWeight: 700 }}>{name}</Text>
+            {certificates.map(
+              ({ name, url, issueDate, expirationDate }, index) => {
+                return (
+                  <View key={index} style={{ marginLeft: "5px" }}>
+                    <Text>
+                      <Text>• </Text>
+                      {url ? (
+                        <Link src={url}>{name}</Link>
+                      ) : (
+                        <Text style={{ fontWeight: 700 }}>{name}</Text>
+                      )}
+                    </Text>
+                    {(issueDate || expirationDate) && (
+                      <Text style={{ marginLeft: "7px", fontStyle: "italic" }}>
+                        {[issueDate, expirationDate]
+                          .filter((date) => !!date)
+                          .join(" - ")}
+                      </Text>
                     )}
-                  </Text>
-                </View>
-              );
-            })}
+                  </View>
+                );
+              }
+            )}
           </View>
         );
       })}

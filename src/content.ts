@@ -87,6 +87,8 @@ export const CERTIFICATIONS = [
       {
         name: "APAC React Bootcamp Certificate",
         url: "https://github.com/tkhquang/tkhquang-resume/blob/main/public/assets/documents/Wizeline_Academy-APAC_React_Bootcamp_Certificate.pdf",
+        issueDate: null,
+        expirationDate: null,
       },
     ],
   },
@@ -96,6 +98,8 @@ export const CERTIFICATIONS = [
       {
         name: "Internship - Certificate Of Completion",
         url: "https://github.com/dwarvesf/training/blob/master/2019/TrinhKhacQuang.pdf",
+        issueDate: null,
+        expirationDate: null,
       },
     ],
   },
@@ -105,18 +109,26 @@ export const CERTIFICATIONS = [
       {
         name: "Responsive Web Design Certification",
         url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/responsive-web-design",
+        issueDate: null,
+        expirationDate: null,
       },
       {
         name: "JavaScript Algorithms and Data Structures Certification",
         url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/javascript-algorithms-and-data-structures",
+        issueDate: null,
+        expirationDate: null,
       },
       {
         name: "Front End Libraries Certification",
         url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/front-end-libraries",
+        issueDate: null,
+        expirationDate: null,
       },
       {
         name: "APIs and Microservices Certification",
         url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/apis-and-microservices",
+        issueDate: null,
+        expirationDate: null,
       },
     ],
   },
@@ -126,6 +138,8 @@ export const CERTIFICATIONS = [
       {
         name: "TOEIC - 870",
         url: null,
+        issueDate: "12/2014",
+        expirationDate: "12/2016",
       },
     ],
   },
