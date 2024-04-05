@@ -169,8 +169,8 @@ export const WORK_EXPERIENCE = [
         tasks: [
           "Played a key role in the team that developed and delivered complex, intuitive interfaces on time, effectively meeting customer expectations and strategic objectives.",
           "Collaborated with the mobile development team to ensure cross-platform accuracy of webview behavior in Android and iOS, boosting the functionality of the Flutter mobile application.",
-          "Incorporated event tracking features and closely collaborated with the data team to extract actionable insights",
-          "Pioneered the research and application of a monorepo approach to consolidate four distinct Front-End repositories, reducing code duplication and enable code reuse",
+          "Incorporated event tracking features and closely collaborated with the data team to extract actionable insights.",
+          "Pioneered the research and application of a monorepo approach to consolidate four distinct Front-End repositories, reducing code duplication and enable code reuse.",
         ],
         stacks: [
           "TypeScript",
