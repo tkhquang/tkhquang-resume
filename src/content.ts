@@ -147,7 +147,7 @@ export const WORK_EXPERIENCE = [
           "As a Front-End Engineer at Care, I focused on improving the membership module and the partner backoffice interface. My role involved creating and integrating user-friendly solutions into the wellness features, which enhanced user engagement and satisfaction.",
         teamSize: 12,
         tasks: [
-          "Collaborating with two other Front-End engineers, I contributed to the creation and implementation of user-friendly interfaces that aligned with user needs and business goals.",
+          "Collaborating with two other Front-End Engineers, I contributed to the creation and implementation of user-friendly interfaces that aligned with user needs and business goals.",
           "Led the research on integrating form builder frameworks like form.io and BEEKAI with our company's design system. This effort resulted in quicker form creation, directly addressing customer needs more efficiently.",
         ],
         stacks: [
