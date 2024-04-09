@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Link } from "@react-pdf/renderer";
+import { Text, View, Link, Svg, Circle } from "@react-pdf/renderer";
 
 import { Section } from "@/components/Layout";
 import { WORK_EXPERIENCE } from "@/content";
@@ -64,9 +64,38 @@ const WorkExperience = () => {
                       <View>
                         {tasks.map((task, index) => {
                           return (
-                            <Text style={{ marginLeft: "5px" }} key={index}>
-                              - {task}
-                            </Text>
+                            <View style={{ marginLeft: "5px" }} key={index}>
+                              <Svg
+                                width={3}
+                                height={3}
+                                style={{
+                                  transform: "translate(2px 8px)",
+                                }}
+                              >
+                                <Circle
+                                  cx="1"
+                                  cy="1"
+                                  r="3"
+                                  fill={COLORS.onBackground}
+                                />
+                                <Text
+                                  style={{
+                                    transform: "translate(-4px 8px)",
+                                    borderRadius: "50%",
+                                    opacity: 0,
+                                  }}
+                                >
+                                  -&nbsp;
+                                </Text>
+                              </Svg>
+                              <Text
+                                style={{
+                                  textIndent: 10,
+                                }}
+                              >
+                                {task}
+                              </Text>
+                            </View>
                           );
                         })}
                       </View>
