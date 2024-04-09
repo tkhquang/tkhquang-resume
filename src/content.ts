@@ -158,11 +158,11 @@ export const WORK_EXPERIENCE = [
         name: "Membership",
         url: null,
         summary:
-          "As a Front-End Engineer at Care, I focused on improving the membership module and the partner back-office interface. My role involved creating and integrating user-friendly solutions into the wellness features, which enhanced user engagement and satisfaction.",
+          "As a Front-End Engineer at Care, I enhanced the membership module and the partner back-office interface, focusing on integrating intuitive solutions into the wellness features to boost user engagement and satisfaction.",
         teamSize: 12,
         tasks: [
-          "Collaborating with two other Front-End Engineers, I contributed to the creation and implementation of user-friendly interfaces that aligned with user needs and business goals.",
-          "Led the research on integrating form builder frameworks like form.io and BEEKAI with our company's design system. This effort resulted in quicker form creation, directly addressing customer needs more efficiently.",
+          "Collaborated with two other Front-End Engineers to design and implement interfaces that were intuitive and consistent with the company-wide design system, catering to user preferences and supporting business goals.",
+          "Led research into integrating form builder frameworks such as form.io and BEEKAI with our company's design system, achieving faster form creation and more efficient addressing of customer needs.",
         ],
         stacks: [
           "TypeScript",
@@ -178,13 +178,13 @@ export const WORK_EXPERIENCE = [
         name: "Wellness",
         url: null,
         summary:
-          "As the sole Front-End Engineer for this project, I implemented the wellness features into the partner back-office interface. My contributions enhanced the interactive and customizable aspects of the platform, leading to increased partner involvement and positive feedback.",
+          "Solely responsible for the front-end development of the Wellness project, I integrated wellness features into the partner back-office interface, enhancing platform interactivity and customization which led to increased partner engagement and positive feedback.",
         teamSize: 10,
         tasks: [
-          "Played a key role in the team that developed and delivered complex, intuitive interfaces on time, effectively meeting customer expectations and strategic objectives.",
-          "Collaborated with the mobile development team to ensure cross-platform accuracy of webview behavior in Android and iOS, boosting the functionality of the Flutter mobile application.",
-          "Incorporated event tracking features and closely collaborated with the data team to extract actionable insights.",
-          "Pioneered the research and application of a monorepo approach to consolidate four distinct front-end repositories, reducing code duplication and enable code reuse.",
+          "Developed and delivered complex, intuitive interfaces on schedule, fulfilling customer expectations and business strategies.",
+          "Worked with the mobile engineering team to ensure webview behavior consistency across Android and iOS, improving the Flutter mobile application's functionality.",
+          "Integrated event tracking features and worked closely with the data team for actionable insights, enhancing user experience.",
+          "Initiated and applied a monorepo strategy to unify four front-end repositories, minimizing code duplication and fostering code reuse.",
         ],
         stacks: [
           "TypeScript",
@@ -211,17 +211,17 @@ export const WORK_EXPERIENCE = [
         name: "Deliany",
         url: null,
         summary:
-          "At Deliany, I was involved in the development of multiple SaaS applications, which are parts of an online food ordering system (cloud kitchen). Started off as a Front-End Engineer, I utilized my knowledge and skills in React and its ecosystem before transitioning to a Full-Stack position using Elixir/Phoenix. I played a key role in deciding and shaping the company's internal UI libraries, ensuring consistency and high efficiency.",
+          "At Deliany, I contributed to the development of multiple SaaS applications as part of an online food ordering system (cloud kitchen). Starting off as a Front-End Engineer, I utilized my knowledge and skills in React and its ecosystem before transitioning to a Full-Stack role using Elixir/Phoenix. I played a key role in deciding on and shaping the company's internal UI libraries, ensuring consistency and efficiency.",
         teamSize: 8,
         tasks: [
-          "Led the architectural design and development efforts for a POS system, ensuring that the code was of high quality and delivered on time.",
-          "Maintained and improved company-wide shared JavaScript libraries, with a specific focus on creating a robust and user-friendly React UI library that utilizes Headless UI.",
-          "Collaborated closely with designers, product owners, and stakeholders to create intuitive and responsive UIs that met user needs and business requirements.",
-          "Proactively addressed technical debt in a sustainable manner, resulting in a significant increase in company productivity.",
-          "Ensured that the applications were reliable and that bugs were easily discoverable, making sure that the system ran smoothly for our clients.",
-          "Kept the codebase clean and up-to-date with the latest libraries, ensuring that the applications were performant and secure.",
-          "Implemented user tracking to optimize website layouts and user flows, resulting in a 20% increase in conversion rates.",
-          "Mentored and guided junior developers to improve their technical skills and foster a culture of continuous learning and growth.",
+          "Led the architectural design and development of a POS system, focusing on high-quality, timely delivered code.",
+          "Enhanced company-wide JavaScript libraries, emphasizing a robust and intuitive React UI library leveraging Headless UI.",
+          "Worked closely with designers and product owners to develop intuitive, responsive UIs, aligning with user needs and business goals.",
+          "Addressed technical debt effectively, significantly boosting company productivity.",
+          "Maintained application reliability and streamlined bug discovery to ensure smooth client operations.",
+          "Updated and maintained the codebase with the latest libraries for optimal performance and security.",
+          "Optimized web layouts and user flows through user tracking, boosting conversion rates by 20%.",
+          "Mentored junior developers, promoting technical skill enhancement and a culture of continuous improvement.",
         ],
         stacks: [
           "TypeScript",
