@@ -119,14 +119,14 @@ export const CERTIFICATIONS = [
         expirationDate: null,
       },
       {
-        name: "Front End Libraries Certification",
-        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/front-end-libraries",
+        name: "Front End Development Libraries Certification",
+        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/front-end-development-libraries",
         issueDate: null,
         expirationDate: null,
       },
       {
-        name: "APIs and Microservices Certification",
-        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/apis-and-microservices",
+        name: "Back End Development and APIs Certification",
+        url: "https://www.freecodecamp.org/certification/fcc6b7548be-1204-45a1-9ef0-f5cf14fbafe9/back-end-development-and-apis",
         issueDate: null,
         expirationDate: null,
       },
