@@ -6,7 +6,7 @@ export const INFO = {
   title: "Front-End Engineer",
   summary: `Versatile Front-End Engineer with ${getYearsOfExperience(
     "2019-01-01"
-  )}+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript's libraries and frameworks such as React, Vue,... with a commitment to delivering innovative solutions and fostering a collaborative work environment. Aiming to leverage my expertise in developing innovative ideas that drive engagement and conversion.`,
+  )}+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript libraries and frameworks such as React and Vue, I am committed to delivering forward-thinking solutions and fostering a collaborative work environment. Aiming to leverage my expertise to drive innovative strategies that enhance engagement and increase conversions.`,
 };
 
 export const SKILLS = [
