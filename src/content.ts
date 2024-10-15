@@ -41,7 +41,7 @@ export const SKILLS = [
 
 export const LINKS = [
   {
-    title: "Porfolio",
+    title: "Portfolio",
     content: "tkhquang.dev",
     url: "https://tkhquang.dev/",
   },
