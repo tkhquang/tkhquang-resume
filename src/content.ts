@@ -6,7 +6,7 @@ export const INFO = {
   title: "Front-End Engineer",
   summary: `Versatile Front-End Engineer with ${getYearsOfExperience(
     "2019-01-01"
-  )}+ years of experience designing, developing, and maintaining complex web applications. Specialized in modern JavaScript libraries and frameworks such as React and Vue, I am committed to delivering forward-thinking solutions and fostering a collaborative work environment. Aiming to leverage my expertise to drive innovative strategies that enhance engagement and increase conversions.`,
+  )}+ years of experience in designing, developing, and maintaining complex web applications. Specializing in modern JavaScript libraries and frameworks like React and Vue, I am committed to delivering forward-thinking solutions and fostering a collaborative work environment. I aim to leverage my expertise to drive innovative strategies that enhance engagement and increase conversions.`,
 };
 
 export const SKILLS = [
@@ -96,7 +96,7 @@ export const CERTIFICATIONS = [
     organization: "Dwarves Foundation",
     certificates: [
       {
-        name: "Internship - Certificate Of Completion",
+        name: "Internship - Certificate of Completion",
         url: "https://github.com/dwarvesf/training/blob/master/2019/TrinhKhacQuang.pdf",
         issueDate: null,
         expirationDate: null,
@@ -178,7 +178,7 @@ export const WORK_EXPERIENCE = [
         name: "Wellness",
         url: null,
         summary:
-          "Solely responsible for the front-end development of the Wellness project, I integrated wellness features into the partner back-office interface, enhancing platform interactivity and customization which led to increased partner engagement and positive feedback.",
+          "Solely responsible for the front-end development of the Wellness project, I integrated wellness features into the partner back-office interface, enhancing platform interactivity and customization, which led to increased partner engagement and positive feedback.",
         teamSize: 10,
         tasks: [
           "Developed and delivered complex, intuitive interfaces on schedule, fulfilling customer expectations and business strategies.",
@@ -211,7 +211,7 @@ export const WORK_EXPERIENCE = [
         name: "Deliany",
         url: null,
         summary:
-          "At Deliany, I contributed to the development of multiple SaaS applications as part of an online food ordering system (cloud kitchen). Starting off as a Front-End Engineer, I utilized my knowledge and skills in React and its ecosystem before transitioning to a Full-Stack role using Elixir/Phoenix. I played a key role in deciding on and shaping the company's internal UI libraries, ensuring consistency and efficiency.",
+          "At Deliany, I contributed to the development of multiple SaaS applications as part of an online food ordering system (cloud kitchen). Starting off as a Front-End Engineer, I utilized my knowledge and skills in React and its ecosystem before transitioning to a Full-Stack role using Elixir/Phoenix. I played a key role in shaping the company's internal UI libraries, ensuring consistency and efficiency.",
         teamSize: 8,
         tasks: [
           "Led the architectural design and development of a POS system, focusing on high-quality, timely delivered code.",
@@ -248,11 +248,11 @@ export const WORK_EXPERIENCE = [
         name: "Big Storage",
         url: null,
         summary:
-          "A shipping service that can track packages and provide updates on package location.",
+          "A shipping service that tracks packages and provides updates on package location.",
         teamSize: 3,
         tasks: [
           "Designed and developed a reusable component library for future use, resulting in a 40% reduction in development time for new projects.",
-          "Developed an interactive layout, using Vue and Bootstrap to generate an improved user experience and ensure high-quality design and cross-browser compatibility.",
+          "Developed an interactive layout using Vue and Bootstrap to generate an improved user experience and ensure high-quality design and cross-browser compatibility.",
           "Reduced page load times by 200% by optimizing package management and removing unnecessary dependencies.",
         ],
         stacks: ["VueJS", "Vuex", "Bootstrap"],
@@ -261,10 +261,10 @@ export const WORK_EXPERIENCE = [
         name: "practice.dev",
         url: null,
         summary:
-          "A platform where programmers solve programming challenges from domains such as front-end and/or back-end.",
+          "A platform where programmers solve programming challenges in domains such as front-end and/or back-end.",
         teamSize: 2,
         tasks: [
-          "Solved multiple challenges and projects to ensure they were working as intended.",
+          "Solved multiple challenges and projects to ensure they worked as intended.",
         ],
         stacks: ["ReactJS", "VueJS", "NodeJS", "Firebase", "TailwindCSS"],
       },
@@ -275,9 +275,9 @@ export const WORK_EXPERIENCE = [
         teamSize: 5,
         tasks: [
           "Successfully migrated a large Vue/Parcel codebase to React/Webpack, improving performance and maintainability.",
-          "Fixed misbehaving functions in existing codebase",
-          "Implemented new features to client-side.",
-          "Successfully debugged the web-related (cross-browser) issues, leading to improved efficiency and performance.",
+          "Fixed malfunctioning functions in the existing codebase.",
+          "Implemented new client-side features.",
+          "Debugged web-related (cross-browser) issues, leading to improved efficiency and performance.",
         ],
         stacks: ["ReactJS", "Redux", "WebRTC"],
       },
@@ -296,7 +296,7 @@ export const WORK_EXPERIENCE = [
         name: "TelemetryTV",
         url: "https://www.telemetrytv.com/",
         summary:
-          "A powerful digital signage platform which allows users to broadcast dynamic content easily by streaming video, images, social feeds, turnkey apps, and data-driven dashboards to all of their displays. I was involved in the development of two applications: the company website and the web-based appplication of the digital signage platform.",
+          "A powerful digital signage platform allowing users to broadcast dynamic content, including video, images, social feeds, turnkey apps, and data-driven dashboards to all of their displays. I was involved in the development of two applications: the company website and the web-based application for the digital signage platform.",
         teamSize: 5,
         tasks: [
           "Successfully migrated a large number of components and modules from an old repository to a new one with a completely different architectural design.",
@@ -320,13 +320,13 @@ export const WORK_EXPERIENCE = [
         name: "DATCOM",
         url: null,
         summary:
-          "As an intern, I worked in a team of 5 people, with the task of building an internal application to to help people in the company order lunch easier. All members were involved in the Back-End development. After that, I was responsible for building the application's UI.",
+          "As an intern, I worked in a team of 5 people to build an internal application to help employees in the company order lunch more easily. All members contributed to the Back-End development, after which I was responsible for building the application's UI.",
         teamSize: 5,
         tasks: [
-          "Leveraged agile methodology to manage tasks and maintain code quality while developing the application using React, TailwindCSS and Go.",
-          "Initilzed the application and designed the database structure using GORM, PostgreSQL.",
-          "Built RESTful APIs for application using Gin.",
-          "Built admin page for menu creation and management leveraging React and TailwindCSS.",
+          "Leveraged agile methodology to manage tasks and maintain code quality while developing the application using React, TailwindCSS, and Go.",
+          "Initialized the application and designed the database structure using GORM and PostgreSQL.",
+          "Built RESTful APIs for the application using Gin.",
+          "Built an admin page for menu creation and management using React and TailwindCSS.",
         ],
         stacks: [
           "Golang",
