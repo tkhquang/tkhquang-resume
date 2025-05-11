@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Links from "./Links";
 import Contact from "./Contact";
+import Certifications from "@/components/RightPanel/Certifications";
 
 const LeftPanel = () => {
   return (
@@ -14,6 +15,7 @@ const LeftPanel = () => {
       <AboutMe />
       <Skills />
       <Links />
+      <Certifications />
       <Contact />
     </View>
   );

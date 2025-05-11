@@ -3,10 +3,11 @@ import { Text, View, Link } from "@react-pdf/renderer";
 
 import { Section } from "@/components/Layout";
 import { CERTIFICATIONS } from "@/content";
+import { COLORS } from "@/contants";
 
 const Certifications = () => {
   return (
-    <Section title={`Certifications`}>
+    <Section title={`Certifications`} wrap={false}>
       {CERTIFICATIONS.map(({ organization, certificates }, index) => {
         return (
           <View key={index}>
@@ -14,11 +15,18 @@ const Certifications = () => {
             {certificates.map(
               ({ name, url, issueDate, expirationDate }, index) => {
                 return (
-                  <View key={index} style={{ marginLeft: "5px" }}>
+                  <View key={index} style={{ marginLeft: "0px" }}>
                     <Text>
                       <Text>• </Text>
                       {url ? (
-                        <Link src={url}>{name}</Link>
+                        <Link
+                          src={url}
+                          style={{
+                            color: COLORS.onSurface,
+                          }}
+                        >
+                          {name}
+                        </Link>
                       ) : (
                         <Text style={{ fontWeight: 700 }}>{name}</Text>
                       )}

@@ -26,7 +26,7 @@ function createDocumentLayout({
         <View
           style={{
             padding: "40px 10px",
-            width: `${100 / 3}%`,
+            width: `${(100 / 9) * 3}%`,
             color: COLORS.onSurface,
             backgroundColor: COLORS.surface,
           }}
@@ -36,7 +36,7 @@ function createDocumentLayout({
         <View
           style={{
             padding: "40px 10px",
-            width: `${(100 / 3) * 2}%`,
+            width: `${(100 / 9) * 6}%`,
             color: COLORS.onBackground,
             backgroundColor: COLORS.background,
           }}

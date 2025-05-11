@@ -11,7 +11,7 @@ const WorkExperience = () => {
       {WORK_EXPERIENCE.map(
         ({ title, company, url, duration, projects }, index) => {
           return (
-            <View style={{ margin: "10px 0" }} key={index} wrap={false}>
+            <View style={{ margin: "10px 0" }} key={index} wrap={true}>
               <Text style={{ fontSize: "12px", fontWeight: 700 }}>{title}</Text>
               <Text style={{ fontSize: "10px" }}>
                 {url ? (
@@ -31,8 +31,9 @@ const WorkExperience = () => {
                 ({ name, url, summary, tasks, stacks, teamSize }, index) => {
                   return (
                     <View
-                      style={{ marginLeft: "15px", marginTop: "10px" }}
+                      style={{ marginLeft: "0px", marginTop: "10px" }}
                       key={index}
+                      wrap={false}
                     >
                       <Text style={{ fontSize: "10px" }}>
                         {url ? (

@@ -12,7 +12,7 @@ const RightPanel = () => {
         <Headline />
       </View>
       <WorkExperience />
-      <Certifications />
+      {/* <Certifications /> */}
     </View>
   );
 };
